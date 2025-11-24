@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#F5F5F0" />
+    <title>Jonas Type Showcase</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=DM+Sans:opsz,wght@9..40,500&family=Space+Mono:wght@400;700&family=Zeyada&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+      body {
+        background-color: #F5F5F0; /* Off-white paper look */
+        color: #111;
+        overflow-x: hidden;
+      }
+      /* Custom Scrollbar to match minimalist aesthetic */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #ccc;
+        border-radius: 3px;
+      }
+
+      @font-face {
+        font-family: 'hyeseong-Regular';
+        src: url('./fonts/혜성체파일명.otf') format('opentype');
+      }
+
+      @font-face {
+        font-family: 'A_Pretzel-Regular';
+        src: url('./fonts/프리첼파일명.ttf') format('truetype');
+      }
+
+      @font-face {
+        font-family: 'A_Jajaknamu-Regular';
+        src: url('./fonts/자작나무파일명.ttf') format('truetype');
+      }
+
+      @font-face {
+        font-family: 'AtheneBold-Regular';
+        src: url('./fonts/아테네파일명.otf') format('opentype');
+      }
+      
+      @font-face {
+        font-family: 'Dolin-Regular';
+        src: url('./fonts/돌린체파일명.otf') format('opentype');
+      }
+    </style>
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://aistudiocdn.com/react@^19.2.0",
+      "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+      "react/jsx-runtime": "https://aistudiocdn.com/react@^19.2.0/jsx-runtime",
+      "react/": "https://aistudiocdn.com/react@^19.2.0/",
+      "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+      "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6"
+    }
+  }
+  </script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  </body>
+</html>
